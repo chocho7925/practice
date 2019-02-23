@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <style>
+        #container {
+            background-color: #EFC752;
+        }
+
+        #header {
+            text-align: center;
+        }
+
+        #menu {
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
+        }
+
+        #mainmenu {
+            text-align: center;
+            width: 500px;
+        }
+
+        .maindish {
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .maindish-left {
+            display: flex;
+            flex-direction: row;
+            width: 70%;
+        }
+
+        .subtext {
+            line-height: 25px;
+            font-size: 10px;
+        }
+
+        .maindish-right {
+            display: flex;
+            justify-content: space-between;
+            width: 25%;
+        }
+
+        .price {
+            color: red;
+
+        }
+        #sidemenu{
+            text-align: center;
+        }
+        .dessert{
+            text-align: center;
+        }
+        #notice{
+            background-color: red;
+            color:white;
+        }
+        .price{
+            text-align: right;
+        }
+        .maindish-right1{
+            display: flex;
+            justify-content: flex-end;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            솔향한우촌
+        </div>
+        <div id="menu">
+            <div id="mainmenu">
+                <p>식사류</p>
+                <div class="maindish">
+                    <div class="maindish-left">
+                        <div class="name">
+                            한우 육회
+                        </div>
+                        <div class="subtext">(100g 11,111원)</div>
+                    </div>
+                    <div class="maindish-right">
+                        <div class="weight">
+                            180g
+                        </div>
+                        <div class="price">20,000원</div>
+                    </div>
+                </div>
+                <div class="maindish">
+                    <div class="maindish-left">
+                        <div class="name">
+                            한우 육사시미
+                        </div>
+                        <div class="subtext">(100g 13,888원)</div>
+                    </div>
+                    <div class="maindish-right">
+                        <div class="weight">
+                            180g
+                        </div>
+                        <div class="price">25,000원</div>
+                    </div>
+                </div>
+                <div class="maindish">
+                    <div class="maindish-left">
+                        <div class="name">
+                            한우 등심주물럭
+                        </div>
+                        <div class="subtext">(2인이상 / 100g 16,666원)</div>
+                    </div>
+                    <div class="maindish-right">
+                        <div class="weight">
+                            180g
+                        </div>
+                        <div class="price">30,000원</div>
+                    </div>
+                </div>
+                <div class="maindish">
+                    <div class="maindish-left">
+                        <div class="name">
+                            한우 숯불양념구이
+                        </div>
+                        <div class="subtext">(2인이상 / 100g 8,000원)</div>
+                    </div>
+                    <div class="maindish-right">
+                        <div class="weight">
+                            200g
+                        </div>
+                        <div class="price">16,000원</div>
+                    </div>
+                </div>
+                <div class="maindish">
+                    <div class="maindish-left">
+                        <div class="name">
+                            한우 불고기 전골
+                        </div>
+                        <div class="subtext">(공기밥포합 / 100g 6,666원)</div>
+                    </div>
+                    <div class="maindish-right">
+                        <div class="weight">
+                            180g
+                        </div>
+                        <div class="price">12,000원</div>
+                    </div>
+                </div>
+                <div class="maindish">
+                    <div class="maindish-left">
+                        <div class="name">
+                            한우 갈비탕
+                        </div>
+                    </div>
+                    <div class="maindish-right1">
+                        <div class="price">12,000원</div>
+                    </div>
+                </div>
+                <div class="maindish">
+                    <div class="maindish-left">
+                        <div class="name">
+                            한우 전복우족탕
+                        </div>
+                        <div class="subtext">(계절메뉴)</div>
+                    </div>
+                    <div class="maindish-right1">
+                        <div class="price">12,000원</div>
+                    </div>
+                </div>
+                <div class="maindish">
+                    <div class="maindish-left">
+                        <div class="name">
+                            한우 육개장
+                        </div>
+                    </div>
+                    <div class="maindish-right1">
+                        <div class="price">8,000원</div>
+                    </div>
+                </div>
+            </div>
+            <div id="sidemenu">
+                <div id="dessert">
+                    <p>후식</p>
+                    <div class="maindish">
+                        <div class="maindish-left">
+                            <div class="name">
+                                냉면(물, 비빔)
+                            </div>
+                        </div>
+                        <div class="maindish-right">
+                            <div class="price">4,000원</div>
+                        </div>
+                    </div>
+                    <div class="maindish">
+                        <div class="maindish-left">
+                            <div class="name">
+                                누룽지탕 / 소면
+                            </div>
+                        </div>
+                        <div class="maindish-right">
+                            <div class="price">3,000원</div>
+                        </div>
+                    </div>
+                    <div class="maindish">
+                        <div class="maindish-left">
+                            <div class="name">
+                                된장찌개
+                            </div>
+                        </div>
+                        <div class="maindish-right">
+                            <div class="price">2,000원</div>
+                        </div>
+                    </div>
+                    <div class="maindish">
+                        <div class="maindish-left">
+                            <div class="name">
+                                공기밥
+                            </div>
+                        </div>
+                        <div class="maindish-right">
+                            <div class="price">1,000원</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="drink">
+                    <p>주류</p>
+                    <div class="maindish">
+                        <div class="maindish-left">
+                            <div class="name">
+                                소주
+                            </div>
+                        </div>
+                        <div class="maindish-right">
+                            <div class="price">3,000원</div>
+                        </div>
+                    </div>
+                    <div class="maindish">
+                        <div class="maindish-left">
+                            <div class="name">
+                                맥주
+                            </div>
+                        </div>
+                        <div class="maindish-right">
+                            <div class="price">4,000원</div>
+                        </div>
+                    </div>
+                    <div class="maindish">
+                        <div class="maindish-left">
+                            <div class="name">
+                                청하
+                            </div>
+                        </div>
+                        <div class="maindish-right">
+                            <div class="price">4,000원</div>
+                        </div>
+                    </div>
+                    <div class="maindish">
+                        <div class="maindish-left">
+                            <div class="name">
+                                막걸리
+                            </div>
+                        </div>
+                        <div class="maindish-right">
+                            <div class="price">3,000원</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="notice">
+                    <div>
+                        상차림 비용(1인 기준) 3,000원 받습니다.(중학생 이상부터)
+                    </div>
+                    <div>
+                        ⋇모든 메뉴 포장시 공기밥 별도⋇
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
